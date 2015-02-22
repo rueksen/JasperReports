@@ -1,0 +1,35 @@
+<project name="JasperReportsTeste" default="compile" basedir=".">
+
+	<description>Compiliert *.jasper-Dateien aus allen *.jrxml-Dateien.</description>
+
+	<path id="classpath">
+		<!--Alle JASPER-Jars einbinden! -->
+		<fileset dir="C:/temp/jasperreports/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="C:/temp/jasperreports/dist">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+
+	<target name="compile">
+		<taskdef name="jrc" classname="net.sf.jasperreports.ant.JRAntCompileTask"> 
+			<classpath refid="classpath"/>
+		</taskdef>
+		<jrc 
+			destdir="."
+			tempdir="."
+			keepjava="false">
+			<src>
+				<fileset dir=".">
+					<include name="**/*.jrxml"/>
+				</fileset>
+			</src>
+			<classpath refid="classpath"/>
+		</jrc> 
+		
+	</target>
+
+
+</project>

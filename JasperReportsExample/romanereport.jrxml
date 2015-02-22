@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+	name="romanereport" pageWidth="595" pageHeight="842" columnWidth="555"
+	leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0" />
+	<property name="ireport.x" value="0" />
+	<property name="ireport.y" value="66" />
+	<queryString language="xPath"><![CDATA[/questioncatalogue/questionset]]></queryString>
+
+	<field name="question" class="java.lang.String">
+		<fieldDescription><![CDATA[question]]></fieldDescription>
+	</field>
+
+
+	<field name="questionsetid" class="java.lang.String">
+		<fieldDescription><![CDATA[@ID]]></fieldDescription>
+	</field>
+
+	<background>
+		<band splitType="Stretch" />
+	</background>
+	<title>
+		<band height="79" splitType="Stretch" />
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch" />
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch" />
+	</columnHeader>
+	<detail>
+		<band height="50" splitType="Stretch">
+
+			<textField>
+				<reportElement x="10" y="11" width="100" height="20" />
+				<textElement />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{questionsetid}]]></textFieldExpression>
+			</textField>
+
+			<textField>
+				<reportElement x="217" y="20" width="500" height="20" />
+				<textElement />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{question}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="20" width="100" height="20" />
+				<textElement />
+				<text><![CDATA[Question:]]></text>
+			</staticText>
+
+			<line>
+				<reportElement x="0" y="20" width="515" height="1"
+					isPrintWhenDetailOverflows="true" />
+				<graphicElement />
+			</line>
+
+			<subreport isUsingCache="false">
+				<reportElement x="32" y="25" width="445" height="20"
+					key="subreport-1" />
+				
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression>$P{XML_DATA_DOCUMENT}
+					</subreportParameterExpression>
+				</subreportParameter>
+
+
+				<subreportParameter name="QuestionSetID">
+					<subreportParameterExpression>$F{questionsetid}
+					</subreportParameterExpression>
+				</subreportParameter>
+
+
+				<subreportExpression class="java.lang.String"><![CDATA["answerreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch" />
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch" />
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch" />
+	</summary>
+</jasperReport>

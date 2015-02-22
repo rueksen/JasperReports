@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="test.xsl" ?> -->
+<questioncatalogue CREATOR_ID="42" ID="73537353" NAME="Romane">
+  <questionset ID="13371337">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+	<answers>
+    <answer ID="17841234___37" TRUTH="false">Die Gebrüder Grimm - 13371337</answer>
+    <answer ID="12341454___37" TRUTH="true">Wolfgang und Heike Hohlbein - 13371337</answer>
+	<answer ID="123445634___37" TRUTH="false">Richard von Weizäcker - 13371337</answer>
+    <answer ID="121234___37" TRUTH="false">Terry Pratchett - 13371337</answer>
+	</answers>
+  </questionset>
+   <questionset ID="13371338">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm - 13371338</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein - 13371338</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker - 13371338</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett - 13371338</answer>
+	</answers>
+  </questionset>
+    <questionset ID="13371339">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+    <questionset ID="13371340">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+  
+   <questionset ID="13371341">
+    <question>Wie heißen die Autoren von Märchssssssssssss ssssssssssssss sssssssssssssssenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+   <questionset ID="13371342">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+    <questionset ID="13371343">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+    <questionset ID="13371344">
+    <question>Wie heißen die Autoren von Märchenmond?</question>
+    <answers>
+    <answer ID="17841234" TRUTH="false">Die Gebrüder Grimm</answer>
+    <answer ID="12341454" TRUTH="true">Wolfgang und Heike Hohlbein</answer>
+    <answer ID="123445634" TRUTH="false">Richard von Weizäcker</answer>
+    <answer ID="121234" TRUTH="false">Terry Pratchett</answer>
+	</answers>
+  </questionset>
+</questioncatalogue>
