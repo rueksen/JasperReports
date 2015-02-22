@@ -2,11 +2,7 @@ package de.hsrm.cs.swtprojekt.knauf.jasperreports.beandatasource;
 
 import java.io.Serializable;
 
-/**Dummy-Datenklasse für den Report: eine einzelne Person.
- * 
- * @author Wolfgang Knauf
- *
- */
+ 
 public class Person implements Serializable
 {
   /**

@@ -13,12 +13,7 @@ import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.swing.JRViewer;
 
-/**Anwendung für das "Report aus JavaBean-Datenquelle laden"-Beispiel
- * 
- * 
- * @author Wolfgang Knauf
- *
- */
+ 
 public class JasperReportsBeanDataSourceTestApp extends JFrame
 {
   /**Damit der Compiler keine Warnungen ausspuckt wird hier eine VersionID deklariert.
